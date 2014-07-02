@@ -1,0 +1,25 @@
+{
+    "name": "vaffel/silex-imbo",
+    "description": "Imbo service provider for Silex",
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "~1.0",
+        "imbo/imboclient": "~1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristoffer Brabrand",
+            "email": "kristoffer@brabrand.no"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Vaffel\\Silex\\Provider": "lib",
+            "VaffelTest\\Silex\\Provider": "tests"
+        }
+    }
+}
