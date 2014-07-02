@@ -16,7 +16,7 @@ class ImboServiceProviderTest extends \PHPUnit_Framework_TestCase
     }
 
     public function testRegister() {
-        $serverUrls = ['http://example.com', 'http://example.net'];
+        $serverUrls = array('http://example.com', 'http://example.net');
         $publicKey  = 'foobar';
         $privateKey = 'barfoo';
 
