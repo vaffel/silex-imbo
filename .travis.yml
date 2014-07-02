@@ -11,4 +11,8 @@ before_script:
   - composer self-update
   - composer -n --no-ansi install --dev --prefer-source
 script:
+<<<<<<< HEAD:travis.yml
   - ./vendor/bin/phpunit --verbose
+=======
+  - ./vendor/bin/phpunit --verbose -c tests
+>>>>>>> 9f2830319f3a2f89c0b6b5c681ea3923d8b6fa31:.travis.yml
