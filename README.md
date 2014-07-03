@@ -1,5 +1,8 @@
-#silex-imbo
 Imbo service provider for Silex
+============================
+Service provider making the Imbo accessible to your Silex application.
+
+[![Build Status](https://travis-ci.org/vaffel/silex-imbo.svg?branch=master)](https://travis-ci.org/vaffel/silex-imbo)
 
 ## Installation
 Add `"vaffel/silex-imbo": "XXX"` to the composer.json file inside your project and do a `composer install`. Check [packagist.com][packagist.org/packages/vaffel/silex-imbo] for the latest available version.
