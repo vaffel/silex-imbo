@@ -29,7 +29,7 @@ class ImboServiceProviderTest extends \PHPUnit_Framework_TestCase
         ));
 
         $app->get('/', function() use($app) {
-            $app['facebook'];
+            $app['imbo'];
         });
 
         $request = Request::create('/');
