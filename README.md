@@ -15,6 +15,7 @@ $app->register(new ImboServiceProvider(), array(
     'imbo.serverUrls' => ['http://example.net', ...], // Array of urls to imbo installations
     'imbo.publicKey'  => $publicKey,                  // Public key
     'imbo.privateKey' => $privateKey,                 // Private key
+    'imbo.user'       => $user,                       // User
 ));
 ```
 
