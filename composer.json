@@ -4,10 +4,10 @@
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "<=1.2",
-        "imbo/imboclient": "~1.3.0"
+        "imbo/imboclient": "~1.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8.19"
+        "phpunit/phpunit": "~4.0"
     },
     "license": "MIT",
     "authors": [
